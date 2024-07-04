@@ -1,0 +1,52 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: #f5f5f5; /* added a light gray background */
+  text-align: center;
+}
+
+form {
+  margin: 40px auto; /* increased margin to create more space */
+  width: 50%;
+  padding: 30px; /* increased padding to create more space */
+  border: 1px solid #ddd; /* changed border color to a lighter gray */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px; /* increased margin to create more space */
+  font-weight: bold; /* added bold font weight to labels */
+}
+
+input[type="number"] {
+  width: 100%;
+  height: 40px; /* increased height to create more space */
+  padding: 15px; /* increased padding to create more space */
+  margin-bottom: 25px; /* increased margin to create more space */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* added border radius to inputs */
+}
+
+.calculate-button {
+  background-color: #337ab7; /* changed button color to a deeper blue */
+  color: #fff;
+  padding: 15px 30px; /* increased padding to create more space */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; /* increased font size to make button more prominent */
+  font-weight: bold;
+  margin-top: 25px; /* increased margin to create more space */
+}
+
+.calculate-button:hover {
+  background-color: #23527c; /* changed hover color to a darker blue */
+}
+
+#total {
+  font-size: 28px; /* increased font size to make total more prominent */
+  font-weight: bold;
+  margin-top: 25px; /* increased margin to create more space */
+  color: #337ab7; /* changed text color to match button color */
+}
